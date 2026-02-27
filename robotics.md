@@ -84,3 +84,174 @@ Skicka
  Vi har mottagit din förfrågan och återkommer till dig så snart som möjligt, vanligtvis inom några timmar under kontorstid.
 
  Brådskande? Ring oss: +46 (0)40 682 06 16
+
+---
+
+# GRANSKNINGSRAPPORT: Robotics-text för Wexoe
+
+## 1. COPYWRITING-EFFEKTIVITET
+
+**Analys:**
+Texten är välstrukturerad och informatativ men saknar emotionell fängelse och unika vinkelar. Rubrikerna är funktionella men inte särskilt dragande ("Robotik", "Robotar styrda från din automationsplattform"). Det finns ingen stark opening som fångar uppmärksamheten med ett tydligt värdeversprechen. Språket är korrekt men ofta passivt och tekniskt – det mäklar för att "eliminera lagret" snarare än att säga "minska stilleståndstiden med 40%" eller något konkret.
+
+Stycket om autonox börjar bra ("världens ledande tillverkare") men förlorar sig snabbt i teknisk detalj. Avsnitt om OTTO Motors är starkare – mer dynamisk – men kan djupas.
+
+**3 KONKRETA FÖRBÄTTRINGSFÖRSLAG:**
+
+1. **Lös problemet i H1**
+   - Idag: "Robotik"
+   - Förslag: "Robotik utan komplexitet – från samma plattform som resten av maskinen"
+   - Effekt: Namnger huvudproblemet (komplexitet) och lösningen (enhetlighet) omedelbar.
+
+2. **Öppna med konkret värde, inte features**
+   - Idag: "Genom Rockwell Automation har vi tillgång till två teknikpartners..."
+   - Förslag: "En robotcontroller för robot OCH maskin. Ingen dubbelarbete. Ingen synkroniseringsproblem. Ingenuity från dag ett."
+   - Effekt: Sätter värdet före teknik. Talat till smärta.
+
+3. **Starkare avslutande budskap i varje avsnitt**
+   - Idag: Varje robotmodell avslutas med bara teknik och specifikationer.
+   - Förslag: Lägg till en repk-rad efter varje robot som säger VAD det möjliggör. T.ex. "DuoPod: När varje sekund räknas i sortering" eller "DELTA: Från 200 till 500 paketering per timme".
+   - Effekt: Knyta feature till resultat.
+
+---
+
+## 2. SEO
+
+**Analys:**
+H1 är svag och generisk ("Robotik") – missar långt tail-sökord. H2:erna är informativa men inte sökordoptimerade:
+- "Robotar styrda från din automationsplattform" – långsamt, inte ett primärt sökord
+- "Unified Robot Control: vad innebär det?" – Q&A-format bra, men ordet "Unified Robot Control" är väldigt nischerat
+
+Brödtexten saknar naturligt förkomst av högvolym-sökord som "industrirobotar", "AMR lager", "robotautomation", "pick-and-place robot". Många goda nyckelord är gömda i beskrivningar istället för att upprepas naturligt. Modellnamn (DuoPod, DELTA) är aldrig länkade eller kontextualiserade för SEO.
+
+**3 KONKRETA FÖRBÄTTRINGSFÖRSLAG:**
+
+1. **H1-optimering för långt tail**
+   - Idag: "Robotik"
+   - Förslag: "Industrirobotik från Rockwell Automation – DeltaRobotar och AMR:er för produktion"
+   - Effekt: Lägger in "industrirobotik", "DeltaRobotar" och "produktion" – högre sökvärde än bara "Robotik".
+
+2. **H2-anpassning för vanliga sökfrågor**
+   - Idag: "OTTO Motors AMR:er — Materialtransport som sköter sig själv"
+   - Förslag: "Autonoma Mobila Robotar (AMR:er) för Lager och Produktion – OTTO Motors"
+   - Effekt: Lägger in "autonoma mobila robotar", "AMR lager", "produktion" organiskt.
+
+3. **Meta-description för robotmodeller**
+   - Idag: Varje robot beskrivs isolerat utan övergripande sammanhang.
+   - Förslag: Lägg till kort förvaltning varje modellgrupp som säger "Lämplig för [sektor], löser [problem], resultat [metric]". Exempel: "DuoPod – snabb positionering för höghastighetssortering, upp till [antal] cykler/timme".
+   - Effekt: Tar in "höghastighetssortering", "positionering", "[antal] cykler" – naturliga sökord.
+
+---
+
+## 3. AUTOMATIONSINGENJÖR
+
+**Analys:**
+Texten är på många sätt välgjord för denna målgrupp – detaljer om axlar, kinematik, FDA & IP69-K godkännande är på plats. MEN:
+
+- Unified Robot Control-avsnittet är det starkaste och skulle kunna komma tidigare. Det är här engineern inser den faktiska innovationen.
+- Modellbeskrivningarna saknar vissa kritiska specifikationer: **hastighet** (cykler/min eller m/s), **noggrannhet** (±mm), **drifttemperatur**. För autonox: ingen länk till datablad. För OTTO: ROI-länk finns, bra, men ingen länk till tekniska specifikationer.
+- "Styr-oberoende" är en stark unique selling point men förklaras inte tillräckligt tydligt. En engineer kan fundera: "Men hur skalable är det verkligen? Vilka servo-enheter stödjs?"
+- Ingen omnämnande av systemkrav (vilken Logix-version krävs?), licensering eller underhål.
+
+**3 KONKRETA FÖRBÄTTRINGSFÖRSLAG:**
+
+1. **Lägg Unified Robot Control högre upp – det är själva nyckeln**
+   - Idag: Det kommer sist, efter robotmodeller.
+   - Förslag: Flytta avsnittet "Unified Robot Control: vad innebär det?" omedelbar efter introduktionen (före robotmodeller).
+   - Effekt: Engineer förstår arkitekturen och värdet innan modellerna presenteras. Reducerar förvirring.
+
+2. **Lägg till tekniska spec och länkar för varje robottyp**
+   - Idag: Endast axlar, nyttolast och arbetsutrymme.
+   - Förslag: För varje robottyp, lägg till: "Cykeltid: [X] ms | Noggrannhet: ±[X] mm | Datablad: [länk]"
+   - Exempel: "DELTA – Cykeltid från 2–4 sekunder per pick-and-place | Noggrannhet ±0,1 mm | Läs mer: autonox tekniska datablad"
+   - Effekt: Engineer kan bedöma om roboten passar utan att lämna sidan. Mer tillförlitlighet.
+
+3. **Förklara "styr-oberoende" med konkreta exempel**
+   - Idag: "De levereras som ren mekanik med anpassade flänsanslutningar för de servomotorer och drivsystem du redan använder."
+   - Förslag: Lägg till: "Det innebär att autonox-robotar kan konfigureras med Kinetix-servon (som vi rekommenderar), men också med tredjepartsservor. Ingen proprietary lock-in. Kompatibel med: [lista över servo-enheter]"
+   - Effekt: Tar bort osäkerhet. Engineer förstår frihetsgraden.
+
+---
+
+## 4. INDUSTRIELL AFFÄRSMAN
+
+**Analys:**
+Det här är textens största svaghet. En fabrikschef eller produktionsdirektör läser denna text och finner:
+
+- Ingen tydlig **affärsmotivering**. Varför skulle de investera? Vad blir de av med för problem?
+- ROI-länk för OTTO finns, men inte för autonox – ingen finansiell kontext för någon av dem.
+- "30+ års erfarenhet" och "Vi säljer inte bara produkter, vi löser problem" är svaga affärsargument – alla säger detta.
+- Ingen prissättning eller orderprocess beskriven.
+- Ingen customercase eller resultat från befintlig installation.
+- "Snabb leverans när det krisar" är svag – inte en affärsmotivering, snarare ett krishanteringsargument.
+
+Texten talarlång tekniken men inte till pengarna.
+
+**3 KONKRETA FÖRBÄTTRINGSFÖRSLAG:**
+
+1. **Lägg till konkret affärsvärde i introduktionen**
+   - Idag: "Genom Rockwell Automation har vi tillgång till två teknikpartners..."
+   - Förslag: "Två vägar att automatisera snabbare och billigare: autonox-robotar för exakt arbete direkt från din befintliga controller – inga integrationskostnader – och OTTO Motors AMR:er för materiallogistik som löser 30–50% av manuell handling i produktion."
+   - Effekt: Direktör förstår omedelbar: kostnadsbesparing och problemlösning.
+
+2. **Lägg till kundfall eller resultat**
+   - Idag: Endast namn på anläggningar (GE, Ford, Amway) utan context.
+   - Förslag: "GE reducerade stillestånd med 35% genom OTTO-flottor. Ford sparar 200 arbetstimmar per vecka i materiallogistik. Amway fördubblade genomströmningen med samma fabriksstorlek."
+   - Effekt: Affärsmän ser sig själva. Betongfakta slår teknik.
+
+3. **Lägg till en enkel ROI-kalkyl för autonox (som för OTTO)**
+   - Idag: Endast för OTTO Motors finns ROI-länk.
+   - Förslag: Lägg till efter autonox-introduktion: "Autonox-integrationskostnader är 40–60% lägre än traditionella robotlösningar (ingen separat robotcontroller, ingen ny programmeringsväg). Beräkna din payback: [länk till ROI-kalkyl]"
+   - Effekt: Affärsman ser tydligt varför autonox är billigare än konkurrenter.
+
+---
+
+## 5. OINSATT AUTOMATIONSINGENJÖR
+
+**Analys:**
+En person som jobbar i produktion men inte är specialist på robotik läser detta och:
+
+- Förstår **inte** vad "Unified Robot Control" innebär praktiskt. Klingande högteknologiskt men mystiskt.
+- Vet **inte** vad en "deltarobot" är, vad "parallellkinematik" betyder, eller varför "seriell kinematik" skulle vara annorlunda.
+- Kan **inte** jämföra modellerna meningsfullt – axlar? Nyttolast? Det är bara siffror.
+- Är **inte säker** på om detta är något "för oss" eller bara för fabriksfabriker.
+- Saknar **användarhistoria**: "Vad använder man det här till varje dag?"
+
+Texten antar för mycket förkunskap. En montörmekaniker eller processingenjör utan robotbakgrund lämnar denna sida och Google:ar något annat.
+
+**3 KONKRETA FÖRBÄTTRINGSFÖRSLAG:**
+
+1. **Lägg till en lättförståelig guide för robottyper med illustrationer**
+   - Idag: Tekniska beskrivningar utan kontext.
+   - Förslag: Före modellbeskrivningarna, lägg till rubrik "Vilken robot passar mitt behov?" med 3–4 enkla scenarier:
+     - "**Snabb plockning av små delar?** → DELTA-robot (som picking-armar på förpackningslinjer)"
+     - "**Tungt material mellan maskiner?** → OTTO 600 eller 1200 (autonoma vagnar som går själv)"
+     - "**Komplext hantverk eller montering?** → articc-arm (som en universalarm med många rörelser)"
+   - Effekt: Oinsatt engineer kopplar robottyp till sitt egna problem direkt.
+
+2. **Förklara Unified Robot Control utan jargong**
+   - Idag: "Robotaxlarna blir servo-axlar i Logix-controllern, drivna av Kinetix-servodrivsystem, och programmerade i Studio 5000..."
+   - Förslag: "**Enkel integration**: Istället för två datorer (en för robot, en för maskin) som pratar med varandra, är roboten helt integrerad i samma styrsystem som maskinen. Du programmerar allt på ett ställe. Inga misstag på vägen mellan systemen."
+   - Effekt: Mycket klarare. Inte teknisk. Praktiskt.
+
+3. **Lägg till kontaktväg för "jag är inte säker om detta är för oss"-tanken**
+   - Idag: Bara en formulär utan guidning.
+   - Förslag: Lägg till ett FAQ-avsnitt eller enkelt chattbot-förberedelse: "Osäker på om detta passar er anläggning? Berätta vad ni gör idag – vi hittar rätt lösning. Ring eller mejla – vi gör ingen press, bara konsultation."
+   - Effekt: Reducerar tröskeln för oinsatta att kontakta Wexoe. Fler leads.
+
+---
+
+## SAMMANFATTNING: DE 3 VIKTIGASTE FÖRBÄTTRINGARNA (från alla experter)
+
+### 1. **Flytta Unified Robot Control högre upp och förklara utan jargong**
+Denna unika teknologi är kärnan i erbjudandet men presenteras långt ner och endast för tekniker. Den behöver placeras omedelbar efter introduktionen, förklaras på ett sätt som både ingenjörer och fabrikschefer förstår, och framställas som *huvudmotiveringen* för varför Wexoe/autonox är olika från konkurrenter. Detta löser problem för copywriting, SEO, engineer-perspektivet, affärsmän och oinsatta.
+
+### 2. **Lägg till affärsvärde: customerresultat, ROI-länk för båda robottyper, och konkret kostnadsbesparing**
+Texten är för teknikfokuserad. Affärsmän och ledning behöver se konkreta resultat (liksom "35% reducerat stillestånd", "200 arbetstimmar sparade") och möjlighet att beräkna return on investment. Lägg till kundfall, sparbesparingar för autonox (som för OTTO) och länka till ROI-verktyg eller direktkontakt för budget-diskussioner.
+
+### 3. **Lägg till användningsscenarier och guidning för olika ingenjörer (expert till oinsatt)**
+En tabell eller sektion "Vilken robot passar mitt behov?" med enkla, praktiska scenarier gör sidan användbar för ett bredare spektrum. Det ökar både SEO-relevans (långt tail-sökord som "pick-and-place robot", "autonom lagertransport") och öppnar för leads från mindre specialiserade beslutsfattare. Kombinera detta med en FAQ eller enkel kontaktväg för osäkra besökare.
+
+---
+
+**Rapport slutförd:** 2026-02-27

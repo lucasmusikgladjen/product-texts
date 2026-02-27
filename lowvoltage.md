@@ -69,3 +69,111 @@ Skicka
  Vi har mottagit din förfrågan och återkommer till dig så snart som möjligt, vanligtvis inom några timmar under kontorstid.
 
  Brådskande? Ring oss: +46 (0)40 682 06 16
+
+---
+
+# Granskningssektion: Produkttext för Lågspänningsprodukter
+
+## 1. Copywriting-effektivitet
+
+**Analys:**
+Texten är faktarik och produktfokuserad men saknar verklig dragningskraft. H1 "Lågspänningsprodukter" är generisk och inte läsarcentrerad. Inledningen i början är för passiv ("spänner från beprövade...") och använder passivkonstruktioner istället för aktiv handling. Språket är ofta tekniskt krångligt med många skruvspetsiga termer utan att förklara varför läsaren skulle bry sig.
+
+**3 konkreta förbättringsförslag:**
+
+1. **Byt H1 från "Lågspänningsprodukter" till något läsarcentrerat** – t.ex. "Motorskydd som förhindrar stillestånd – från beprövat till intelligenta lösningar". Detta säger omedelbar värde istället för produktkategori.
+
+2. **Skärp öppningsraden** – Ersätt "spänner från beprövade standardprodukter till intelligenta..." med något som "Från enkla motorskydd till AI-diagnostik: välj rätt skyddsnivå för varje maskin". Mer konkret och actionbar.
+
+3. **Lägg till en "varför det spelar roll"-rad i varje produktsektion** – T.ex. före 140M-brytarna: "Fel motorskydd = kostnadskrävande stillestånd. Rätt skydd = förutsägbar drift." Detta skapar kontext för varför produkterna är relevanta.
+
+---
+
+## 2. SEO-optimering
+
+**Analys:**
+H1 är för kort och inte optimerad för sökord. H2-rubrikerna ("Motorskydd och start", "Nätaggregat", "Varför handla...") är alldeles för generiska. Texten använder många tekniska termer men missa ofta de vanligare sökord som ingenjörer faktiskt söker på (t.ex. "motorskydd för styrskåp" eller "elektronisk motorstartare 11kW"). Brödtexten är inte konstruerad för att introducera sökordet tidigt i avsnitten.
+
+**3 konkreta förbättringsförslag:**
+
+1. **Optimera H1 för långsvänsord** – Ändra till något som "Lågspänningskomponenter för styrskåp och maskiner – motorskydd, startare och nätaggregat från Allen-Bradley". Inkluderar både huvudkategori och relevantkeywords.
+
+2. **Stärk H2-rubrikerna med sökordsintention** – Istället för "Motorskydd och start", skriv "Motorskyddbrytare och elektroniska startare för 11kW-motorer". Istället för "Nätaggregat", skriv "DIN-monterade nätaggregat för styrskåp: 24V till 48V".
+
+3. **Introduceringsstycke före varje produktsektion som innehåller sökordet** – T.ex. före motorskyddavsnittet: "Allen-Bradley motorskyddbrytare och överlastrelä skyddar dina motorer från överbelastning och kortslutning..." Detta hjälper Google att förstå relevans tidigt.
+
+---
+
+## 3. Automationsingenjör (expertperspektiv)
+
+**Analys:**
+Texten är tekniskt korrekt men saknar djup och kontext. En erfaren ingenjör vet redan vad en motorskyddbrytare är – de behöver veta *hur de olika produkterna skiljer sig* och *varför de skulle välja en över en annan*. Avsnitten lister produkter sida vid sida utan att förklara trade-offs. Exempel: 140M vs 140MT vs 140MG listas men ingen förklaring på när du använder vilken. M100-avsnittet är bättre (förklarar Point-on-Wave, Zero-stacking) men saknar jämförelse med konkurrenter eller alternativa lösningar.
+
+**3 konkreta förbättringsförslag:**
+
+1. **Lägg till jämförelsematris eller beslutskriteria** – Efter produktlistan, skapa ett stycke som säger: "Välj 140M för stora installationer och standard IEC-arbete. Välj 140MT om pladden är liten eller du använder tunna ledare. Välj 140MG för höga strömmar upp till 150A." Gör det enkelt att välja rätt.
+
+2. **Förklara ekosystemet och integration** – M100 kräver 140MT uppströms – detta är viktigt! Lägg till ett stycke som förklarar "M100-systemet" som en hel lösning: "M100 hanterar soft-start och överbelastning, men kräver en 140MT uppströms för kortslutningsskydd. Tillsammans ger de ett SIL3-certifierat paket." Detta visar att du förstår verklig installation.
+
+3. **Lägg till en "teknisk grund" eller "varför"-sektion** – T.ex. "Vad är Point-on-Wave och varför spelar det roll?" eller "SIL 3: vad betyder det för din installation?" En rad förklaring för varje termin som inte är helt självklar.
+
+---
+
+## 4. Industriell affärsman (beslutfattarperspektiv)
+
+**Analys:**
+Texten säger inte klart *vilka problem lågspänningsprodukterna löser* för beslutsfattaren. ROI framkommer inte. Värdet är dolt i tekniska detaljer. En fabrikschef eller produktionsansvarig bryr sig om: stilleståndskostnader, systemtillförlitlighet, snabbhet, kostnader, support. Avsnittet "Varför handla av Wexoe" är den enda platsen för detta – men det är för svagt. Det säger "en leverans" men inte "sparar X timmar monteringstid" eller "reducerar stillestånd med Y%".
+
+**3 konkreta förbättringsförslag:**
+
+1. **Lägg till ROI/värde-argument i introduktionen** – Ersätt den passiva inledningen med: "Rätt motorskydd eliminerar okalkylerade stillestånd. M100 elektronisk startare reducerar paneldesigntiden med ~30% och installationstiden med ~40%." Konkreta tal säljer bättre än features.
+
+2. **Skriv ett helt avsnitt "Värdet av att välja Wexoe för lågspänning"** – Istället för det befintliga "Varför handla"-avsnittet, skriv något som:
+   - En leverantör, en order, en faktura → reducerar administrativt arbete
+   - Allt är testat att fungera tillsammans → ingen integrationstid
+   - 30+ års erfarenhet → vi vet vilka kombinationer som fungerar
+   - Lager i Köpenhamn → samma-dag leverans om det krisar
+
+   Detta är SÄLJAARGUMENT, inte bara öppen dörr.
+
+3. **Lägg till ett litet case-exempel eller kunde-citat** – T.ex. "En större mekanisk verkstad fick ned stilleståndstiden från 4h till 30 min genom att använda M100 + våra diagnostikverktyg." Verifikation säljer.
+
+---
+
+## 5. Oinsatt automationsingenjör (nybörjarperspektiv)
+
+**Analys:**
+Texten är för teknisk och antar för mycket förkunskap. En ingenjör som är ny på automation (t.ex. mekaniker som nu behöver veta lite elektronik, eller lärkille på sitt första jobb) kommer att gå vilse. "Tap conductor protection" förklaras inte. "Point-on-Wave-teknik" är bara ett namn. "SIL 3" säger ingenting om vad det betyder. Avsnittet lägger för många produkter på en gång utan prioritering.
+
+**3 konkreta förbättringsförslag:**
+
+1. **Lägg till en "börja här"-section före produktlistorna** – T.ex. ett stycke som säger:
+   "**Om du är ny på detta:** Motorskydd är elektronik som skyddar elektriska motorer från att brinna upp. Det finns två huvudtyper: mekaniska brytare (snabba, enkla) och elektroniska skydd (smarta, med diagnostik). Vi erbjuder båda – börja med mekaniska om du är osäker, uppgradera när du är redo."
+
+   Denna "translator"-text hjälper nybörjare att orientera sig.
+
+2. **Lägg förklaring i parenteser för varje teknisk term** – T.ex.
+   - "Tap conductor protection (skydd för tunna ledare när flera motorer startar från samma ledning)"
+   - "Point-on-Wave (Smart startteknik som minskar eltopparna)"
+   - "SIL 3 (En säkerhetscertifiering – betyder att produkten är mycket tillförlitlig för kritiska tillämpningar)"
+
+3. **Prioritera och visualisera** – Lägg till något som "**De 3 viktigaste produkterna för nybörjare:**" och lista endast 140M, M100, och en nätaggregat. Säga för varje: "Använd denna för X. Kostnad: Y. Enkelhetsgrad: Z/5 stjärnor." Mindre överväldigande än 10 produkter på en gång.
+
+---
+
+## Sammanfattning: De 3 viktigaste förbättringarna (enligt alla experter)
+
+1. **Lägg till värdeargument och ROI-fokus i början och mellan avsnitten**
+   - Idag är texten rent teknisk/faktarik. Lägg till "varför det spelar roll"-argument: stilleståndskostnader, tidsbesparingar, eller systemtillförlitlighet.
+   - Exempel: "M100 sparar ~30% paneldesigntid" eller "Rätt motorskydd = eliminerade oplanerade stillestånd"
+   - Detta gör texten relevant för både beslutsfattare och ingenjörer.
+
+2. **Lägg till struktur och hjälp för olika läsartyper**
+   - Börja varje produktsektion med en "hjälp-rad" för nybörjare (kort förklaring av vad produkttypen gör)
+   - Lägg till en jämförelsematris eller beslutskriteria för experter (när använder du 140M vs 140MT?)
+   - Detta löser problemet att texten inte fungerar för både nybörjare och experter samtidigt.
+
+3. **Optimera för både SEO och läsbarhet genom bättre rubrik-struktur och introduktioner**
+   - H1 och H2 är för generiska. Gör dem sökordsoptimerade men läsbara: "Elektroniska motorstartare 11kW för styrskåp" istället för bara "Motorskydd och start"
+   - Varje sektion ska börja med introduktionsstycke som upprepar sökordet och sätter kontext
+   - Detta hjälper både Google och läsare att direkt förstå vad avsnittet handlar om.
